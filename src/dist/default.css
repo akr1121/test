@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf) format("opentype"); }
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Medium.otf) format("opentype"); }
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.otf) format("opentype"); }
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 900;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Black.otf) format("opentype"); }
+
+@font-face {
+  font-family: "novecento";
+  src: url("../../font/Novecento/Novecento_sans_wide_Medium.otf") format("opentype"), url("../../font/Novecento/Novecento_sans_wide_Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "novecentoNormal";
+  src: url("../../font/Novecento/Novecento_sans_wide_Normal.otf") format("opentype"), url("../../font/Novecento/Novecento_sans_wide_Normal.woff") format("woff"); }
+
+@font-face {
+  font-family: "novecentoBook";
+  src: url("../../font/Novecento/Synthview_Novecento_sans_wide_Book.otf") format("opentype"), url("../../font/Novecento/Synthview_Novecento_sans_wide_Book.woff") format("woff"); }
+
+@font-face {
+  font-family: "icon-font";
+  src: url("../../font/icon/boelicon.ttf") format("truetype"), url("../../font/icon/boelicon.woff") format("woff"), url("../../font/icon/boelicon.eot") format("eot"); }
+
+*::-moz-selection {
+  background: #acd0f1; }
+
+*::selection {
+  background: #acd0f1; }
+
+*::-moz-selection {
+  background: #acd0f1; }
+
+/* ----------------  Reset Styles  ----------------- */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+sup {
+  font-size: 70%; }
+
+body {
+  line-height: 1; }
+
+html, body {
+  width: 100%; }
+
+img {
+  height: auto; }
+
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+ul, ol {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none; }
+
+a {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: baseline; }
+
+:focus {
+  outline: 0; }
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+hr {
+  border: 0;
+  border-top: 1px solid #cccccc;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+* {
+  -webkit-text-size-adjust: none; }
+
+body {
+  font-family: "游ゴシック", YuGothic,'Noto Sans Japanese', "novecento","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,sans-serif;
+  -webkit-text-size-adjust: 100%; }
+
+a, p {
+  color: #666666; }
+
+/* --------------  //Reset Styles  ----------------- */
+/*********************************************
+	基本の設定
+**********************************************/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/*********************************************
+ 	top page
+**********************************************/
